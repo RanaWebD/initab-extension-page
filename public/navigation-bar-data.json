@@ -1,10 +1,41 @@
 [
     {
-        "icon": "Y",
-        "title" : "SETTING"
+        "icon": "wrench",
+        "title" : "SETTING",
+        "color": "#8be9fd"
     },
     {
-        "icon": "X",
-        "title" : "GITS"
+        "icon": "code",
+        "title" : "GITS",
+        "color": "#50fa7b"
+    },
+    {
+        "prefix": "fab",
+        "icon": "stack-overflow",
+        "title" : "STACK OVERFLOW",
+        "color": "#ffb86c"
+    },
+    {
+        "icon": "chart-line",
+        "title" : "TRENDING",
+        "color": "#ff79c6"
+    },
+    {
+        "icon": "pencil-alt",
+        "title" : "SCRATCH PAD",
+        "color": "#bd93f9"
+    },
+    {   
+        "prefix": "far",
+        "icon": "lightbulb",
+        "title" : "PLAYGROUND",
+        "color": "#f8f8f2",
+        "lockIcon": "lock"
+    },
+    {
+        
+        "icon": "question",
+        "title" : "HELP/INTRO",
+        "color": "#e6db74"
     }
 ]
