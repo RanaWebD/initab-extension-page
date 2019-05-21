@@ -1,33 +1,28 @@
-.App {
+html {
+  /* this defines what 1rem is */
+  font-size: 62.5%; /*1 rem = 10px; 10/16(browser default size) 62.5% === 10px */
+}
+body{
+  
+  font-family: 'Inconsolata',monospace;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main{
+  background-color: #212529;
+}
+.section-title{
+  color: #8be9fd;
+  font-size: 1.6rem;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  font-weight: 1rem;
+  text-transform: uppercase;
 }

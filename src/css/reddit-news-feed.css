@@ -1,0 +1,43 @@
+#section-reddit-news-feed{
+    overflow-y: auto;
+    height: 100vh;
+}
+#reddit-news-feed-list{
+    padding: 0 2rem;
+}
+.reddit-news-feed-list-item-box{
+    margin-bottom: 4rem;
+    text-align: left;
+    border-left-width: .3rem;
+    border-left-style: solid;
+    padding-left: 1rem;
+    border-color: #44475a!important;
+    overflow-y: auto;
+    max-height: 100%;
+    margin-top: 4rem;
+}
+.reddit-news-feed--title, .reddit-news-feed--posted-by,.reddit-news-feed--reddit-core{
+    font-family: 'Inconsolata',monospace;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: .4rem;
+    font-weight: 100;
+    display:block;
+}
+.reddit-news-feed--title{
+    color: #f8f8f2; 
+}
+.reddit-news-feed--posted-by{
+    color: #f1fa8c;
+}
+.reddit-news-feed--reddit-core{
+    color: #6272a4;
+}
+.reddit-news-feed--reddit-linktocomments{
+    color: #ff79c6;
+    text-decoration: underline;
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 100;
+}

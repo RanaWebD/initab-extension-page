@@ -1,0 +1,31 @@
+
+#section-Time{
+    height: 50vh;
+    background-color: #212529;
+    z-Index: 1000;
+    position: absolute
+  }
+  #time-box{
+    text-align: center;
+    color: #6272a4;
+}
+#hours-minutes-text{
+    font-size: 12rem;
+}
+#ampm-text{
+    font-size: 3.2rem;
+}
+#day-month-year-text{
+    font-size: 2rem;
+}
+#time-note{
+    white-space: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+#time-dont-show-me-btn{
+    color:#ffb86c;
+    font-weight: bold;
+    cursor: pointer;
+}

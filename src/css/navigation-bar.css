@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 96vh;
-    padding: 2vh 1vh;
-    width: 10%;
+    height: 100vh;
+    padding: 1rem .8rem 1.5rem .8rem;
     background-color: #44475a!important;
 }
 .navigation-bar-list-box{
@@ -16,22 +15,27 @@
 .navigation-bar-list-item-box{
     display: flex;
     align-items: center;
+    margin-top: 2rem;
+
+}
+.navigation-bar-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2rem;
+    width: 2rem;
+    height: 2rem;
+    padding: .5rem;
 }
 .navigation-bar-icon{
-    border-radius: 5px;
-    font-size: 14px;
-    width: 26px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: #44475a!important;
-    padding: 2px 0;
+    font-size: 1.3rem ;
+    color: #44475a;
 }
 .navigation-bar-text{
-    font-size: 13px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-family: 'Inconsolata',monospace;
-    margin-left: 5px;
+    margin-left: .5rem;
 }
 .navigation-bottom-box{
     display: flex;
@@ -41,12 +45,12 @@
 #main-img{
     background: url("https://initab.com/assets/images/initab_logo.png");
     background-repeat: no-repeat;
-    height: 35px;
-    width: 125px;
+    height: 3.5rem;
+    width: 12.5rem;
 }
 .social-media-box{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 1rem;
     width: 100%;
 }
