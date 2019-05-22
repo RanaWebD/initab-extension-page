@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/initab-extension-page/static/css/main.12a4512d.chunk.css",
-    "main.js": "/initab-extension-page/static/js/main.e847e699.chunk.js",
-    "main.js.map": "/initab-extension-page/static/js/main.e847e699.chunk.js.map",
+    "main.css": "/initab-extension-page/static/css/main.3420c0a6.chunk.css",
+    "main.js": "/initab-extension-page/static/js/main.b6494481.chunk.js",
+    "main.js.map": "/initab-extension-page/static/js/main.b6494481.chunk.js.map",
     "runtime~main.js": "/initab-extension-page/static/js/runtime~main.0bd5f240.js",
     "runtime~main.js.map": "/initab-extension-page/static/js/runtime~main.0bd5f240.js.map",
-    "static/js/2.7e3675d7.chunk.js": "/initab-extension-page/static/js/2.7e3675d7.chunk.js",
-    "static/js/2.7e3675d7.chunk.js.map": "/initab-extension-page/static/js/2.7e3675d7.chunk.js.map",
+    "static/js/2.2f4292f8.chunk.js": "/initab-extension-page/static/js/2.2f4292f8.chunk.js",
+    "static/js/2.2f4292f8.chunk.js.map": "/initab-extension-page/static/js/2.2f4292f8.chunk.js.map",
     "index.html": "/initab-extension-page/index.html",
-    "precache-manifest.396b85b690027da497d64011d8fe87ef.js": "/initab-extension-page/precache-manifest.396b85b690027da497d64011d8fe87ef.js",
+    "precache-manifest.5bc47538d1f52fc445abc192472f7d27.js": "/initab-extension-page/precache-manifest.5bc47538d1f52fc445abc192472f7d27.js",
     "service-worker.js": "/initab-extension-page/service-worker.js",
-    "static/css/main.12a4512d.chunk.css.map": "/initab-extension-page/static/css/main.12a4512d.chunk.css.map"
+    "static/css/main.3420c0a6.chunk.css.map": "/initab-extension-page/static/css/main.3420c0a6.chunk.css.map"
   }
 }
