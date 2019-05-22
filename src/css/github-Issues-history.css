@@ -1,3 +1,8 @@
+#section-github-issues-history{
+    padding: 0 20px 0 0;
+    margin-left: 20px;
+    width: calc(100% - 20px);
+}
 #github-issues-history-heading{
     color: #8be9fd;
     font-size: 1.6rem;
@@ -35,9 +40,14 @@
 }
 #github-issues-history-list{
     overflow: auto;
+    -ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none;
     height: 60vh;
     margin-top: 4rem;
     padding: 2rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #44475a;
 }
 .github-issues-history-list-item{
     margin-bottom: 4rem;

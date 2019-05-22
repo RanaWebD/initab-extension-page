@@ -1,11 +1,13 @@
 
 #section-Time{
     height: 50vh;
-    background-color: #212529;
+    background-color: #282a36;
     z-Index: 1000;
-    position: absolute
-  }
-  #time-box{
+    position: relative;
+}
+#time-box{
+    position: absolute;
+    width: 100%;
     text-align: center;
     color: #6272a4;
 }

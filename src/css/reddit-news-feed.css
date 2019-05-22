@@ -1,5 +1,7 @@
 #section-reddit-news-feed{
-    overflow-y: auto;
+    overflow-y: auto; 
+    -ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none;
     height: 100vh;
 }
 #reddit-news-feed-list{

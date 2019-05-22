@@ -13,11 +13,18 @@ class TimeSection extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.setState({ time: Date.now() }), 1000);
+    this.interval = setInterval(
+      () => this.setState({ time: Date.now() }),
+      1000
+    );
   }
   componentWillUnmount() {
     clearInterval(this.interval);
   }
+
+  suppressMsg = () => {
+    document.getElementById("time-note").style.display = "none";
+  };
 
   render() {
     return (
@@ -38,7 +45,9 @@ class TimeSection extends React.Component {
                   .split(" ")[1]
               }
             </span>
+            <div id="day-month-year-text">{moment().format("LL")}</div>
           </div>
+     
           <div id="time-note">
             <span>
               Did you know you can add CUSTOM LINKS to display in this section?
@@ -55,7 +64,7 @@ class TimeSection extends React.Component {
             <br />
             Open the SETTINGS panel and add the URLs of your favorites sites to
             the 'CUSTOM LINKS' textarea.
-            <div id="time-dont-show-me-btn">
+            <div id="time-dont-show-me-btn" onClick={() => this.suppressMsg()}>
               <FontAwesomeIcon
                 icon={"times-circle"}
                 style={{

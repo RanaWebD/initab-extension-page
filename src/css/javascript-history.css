@@ -1,6 +1,8 @@
 
 #section-javascript-history{
     overflow: auto;
+    -ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none;
     height: 50vh;
     z-Index: 500;
     border-bottom-width: .1rem;
