@@ -2,8 +2,24 @@ html {
   /* this defines what 1rem is */
   font-size: 62.5%; /*1 rem = 10px; 10/16(browser default size) 62.5% === 10px */
 }
+:root {
+  --border-hover-color: #50fa7b!important;
+  --reddit-coments-link-hover-color: #66d9ef!important;
+  --js-history-title-hover-color: #f1fa8c!important;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+ }
 body{
   font-family: 'Inconsolata',monospace;
+  /* line-height:0 */
 }
 a:hover{
   text-decoration: none;
@@ -17,8 +33,8 @@ a:hover{
 }
 ul{
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 #main{
   background-color: #282a36;
@@ -26,9 +42,9 @@ ul{
 .section-title{
   color: #8be9fd;
   font-size: 1.6rem;
-  text-align: center;
+  font-weight: 1rem;
   margin-bottom: 1rem;
   margin-top: 4rem;
-  font-weight: 1rem;
+  text-align: center;
   text-transform: uppercase;
 }

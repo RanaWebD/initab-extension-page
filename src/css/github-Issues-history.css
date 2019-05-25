@@ -1,87 +1,89 @@
 #section-github-issues-history{
-    padding: 0 20px 0 0;
     margin-left: 20px;
+    padding: 0 20px 0 0;
     width: calc(100% - 20px);
 }
 #github-issues-history-heading{
     color: #8be9fd;
     font-size: 1.6rem;
-    text-align: center;
+    font-weight: 100;
     margin-bottom: 0;
     margin-top: 4rem;
-    font-weight: 100;
+    text-align: center;
     text-transform: uppercase;
 }
 #github-issues-history-sub-heading{
     margin-top: 2.4rem;
     text-align: center;
 }
-#github-issues-history-sub-heading-one{
-    font-size: 1.3rem;
-    margin-right: 1rem;
+#github-issues-history-sub-heading-one, 
+#github-issues-history-sub-heading-two {
     cursor: pointer;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 1.3rem;
     position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+#github-issues-history-sub-heading-one{
     color: #f1fa8c;
+    margin-right: 1rem;
 }
 #github-issues-history-sub-heading-two{
-    font-size: 1.3rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
     color: #ff79c6;
 }
 #github-issues-history-sub-heading-icon{
+    bottom: -1rem;
     position: absolute;
     left: calc(50% - .4rem);
-    bottom: -1rem;
 }
 #github-issues-history-list{
-    overflow: auto;
-    -ms-overflow-style: none; 
-    overflow: -moz-scrollbars-none;
-    height: 60vh;
-    margin-top: 4rem;
-    padding: 2rem;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #44475a;
+    height: 60vh;
+    margin-top: 4rem;
+    padding: 2rem;
+    overflow: auto; 
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
 }
 .github-issues-history-list-item{
-    margin-bottom: 4rem;
-    text-align: left;
     border-left-width: .3rem;
     border-left-style: solid;
+    border-color: #44475a;
+    margin-bottom: 4rem;
     padding-left: 1rem;
-    border-color: #44475a
+    text-align: left;
+    transition: all .2s ease-in;
+}
+.github-issues-history-list-item:hover{
+    border-color: var(--border-hover-color);
 }
 .github-issues-history-list-item--a{
     color: #6272a4;
 }
 .github-issues-history-list-item--repo{
+    color: #6272a4;
     font-size: 1.4rem;
-    white-space: nowrap;
+    font-weight: 100;
+    line-height: 1.8rem;
+    margin-bottom: .4rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-weight: 100;
-    margin-bottom: .4rem;
-    line-height: 1.8rem;
-    color: #6272a4;
+    white-space: nowrap;
 }
 .github-issues-history-list-item--issue{
+    color: #f1fa8c;
     font-size: 1.4rem;
     font-weight: 100;
-    margin-bottom: .4rem;
     line-height: 1.8rem;
-    color: #f1fa8c;
+    margin-bottom: .4rem;
 }
 .github-issues-history-list-item--warning{
+    color: #f8f8f2;
     font-size: 1.4rem;
-    line-height: 1.8rem;
     font-weight: 100;
+    line-height: 1.8rem;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    color: #f8f8f2;
 }

@@ -30,7 +30,7 @@ class TimeSection extends React.Component {
     return (
       <section id="section-Time">
         <div id="time-box">
-          <div>
+          
             <span id="hours-minutes-text">
               {
                 moment()
@@ -46,7 +46,7 @@ class TimeSection extends React.Component {
               }
             </span>
             <div id="day-month-year-text">{moment().format("LL")}</div>
-          </div>
+          
      
           <div id="time-note">
             <span>
@@ -76,7 +76,6 @@ class TimeSection extends React.Component {
               />
               Got it! Don't show me this again.
             </div>
-            <div />
           </div>
         </div>
       </section>

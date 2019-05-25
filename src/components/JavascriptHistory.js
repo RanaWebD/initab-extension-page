@@ -7,7 +7,7 @@ class JavascriptHistory extends Component {
   render() {
     // console.log(this.props.javascriptHistoryData)
     return (
-      <section id="section-javascript-history">
+      <section id="section-js-history">
         <h4 className="section-title">
           <FontAwesomeIcon
             icon={["fab", "reddit-alien"]}

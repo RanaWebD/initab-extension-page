@@ -4,7 +4,7 @@ import "../css/javascript-history.css";
 
 const JavascriptHistoryList = props => {
   return (
-    <ul id="javascript-history-list">
+    <ul id="js-history-list">
       <JavascriptHistoryListItem javascriptHistoryData={props.javascriptHistoryData} />
     </ul>
   );

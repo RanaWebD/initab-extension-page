@@ -6,11 +6,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class NavigationBar extends Component {
   render() {
     return (
-      <div id="navigation-bar">
+      <div id="nav-bar">
         <NavigationBarList navigationBarData={this.props.navigationBarData} />
-        <div style={{ textAlign: "center" }} className="navigation-bottom-box">
+        <div style={{ textAlign: "center" }} className="nav-bottom-box">
           <a href="http://initab.com/" target="blank">
-            <div id="main-img" />
+            {/* <div id="main-img" /> */}
+            <img
+              id="initab-logo"
+              src="https://initab.com/assets/images/initab_logo.png"
+              alt="initab logo"
+              onMouseOver={e => (e.currentTarget.src = require("../assets//initab_logo_yellow.png"))}
+              onMouseOut={e => (e.currentTarget.src = "https://initab.com/assets/images/initab_logo.png")}
+            />
           </a>
           <ul className="social-media-box">
             <li>

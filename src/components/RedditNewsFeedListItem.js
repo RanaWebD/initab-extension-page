@@ -12,7 +12,7 @@ const RedditNewsFeedListItem = props => {
         <span className="reddit-news-feed--reddit-core">
           Reddit Score: <span>{data.redditScore}</span>
         </span>
-        <a className="reddit-news-feed--reddit-linktocomments" href="#">
+        <a className="reddit-news-feed--reddit-link" href="#">
               {data.linkToComments}
             </a>
       </li>

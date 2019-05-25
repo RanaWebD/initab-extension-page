@@ -1,15 +1,15 @@
 
 #section-Time{
-    height: 50vh;
     background-color: #282a36;
-    z-Index: 1000;
+    height: 50vh;
     position: relative;
+    z-Index: 1000;
 }
 #time-box{
-    position: absolute;
-    width: 100%;
-    text-align: center;
     color: #6272a4;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 #hours-minutes-text{
     font-size: 12rem;
@@ -21,13 +21,13 @@
     font-size: 2rem;
 }
 #time-note{
-    white-space: normal;
     font-size: 1.2rem;
     line-height: 2rem;
     margin-top: 2rem;
+    white-space: normal;
 }
 #time-dont-show-me-btn{
     color:#ffb86c;
-    font-weight: bold;
     cursor: pointer;
+    font-weight: bold;
 }
